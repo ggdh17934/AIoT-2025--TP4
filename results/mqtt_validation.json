@@ -1,0 +1,25 @@
+{
+  "broker": "temporary localhost AMQTT",
+  "port": 18885,
+  "round_trip_ms": 7.683200001338264,
+  "response": {
+    "device_id": "validation-tp4",
+    "request_id": 991,
+    "model": "lr",
+    "prediction": 1,
+    "probability": 0.9999765936236253,
+    "both_models": {
+      "lr": {
+        "prediction": 1,
+        "probability": 0.9999765936236253
+      },
+      "xgb": {
+        "prediction": 0,
+        "probability": 0.00033970572985708714
+      }
+    },
+    "timestamp": 1791814278.7908401,
+    "server_inference_ms": 5.367199999454897
+  },
+  "scope": "real host MQTT transport, not ESP32 or WiFi"
+}

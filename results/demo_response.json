@@ -1,0 +1,19 @@
+{
+  "device_id": "esp-01",
+  "request_id": 1,
+  "model": "lr",
+  "prediction": 1,
+  "probability": 0.9999765936236253,
+  "both_models": {
+    "lr": {
+      "prediction": 1,
+      "probability": 0.9999765936236253
+    },
+    "xgb": {
+      "prediction": 0,
+      "probability": 0.00033970572985708714
+    }
+  },
+  "timestamp": 1791813651.9927256,
+  "server_inference_ms": 5.517800000234274
+}
